@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TestRemote.exe" version="1.0.0.1" publicKeyToken="9a5edb750e2fb565" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TestRemote" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TestRemote.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TestRemote.exe" size="8632">
+      <assemblyIdentity name="TestRemote" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BFW+UqteEJVOI+cbel/7nGP/ls+aeOKLzER2rzEt414=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TestRemote.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MAIN\ryabov-sd" issuerKeyHash="dbd39ec2d27885944f9b7af02189c1742bb15046" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dq9iofkCIE9sM5t5P0qaoPMJaYKrS7UraJTXP3gXUhY=</DigestValue></Reference></SignedInfo><SignatureValue>JkvnJwi2VXx/4h1PoYjYp1Px4QFZqJT/JVPyD5DxL5MDIJFuLWkiScvt35Hw7feRaD/TaTL7wyi9gplAHVoAhxkwLR2hqaq8/mpeTFIUZf5L2mnYxtnSC+jJUmg+3kHWca/qPm2uquudwDjSeqkWpta48SJDOe14qSEXU4rzHXU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>95imarSheul4H72MOZwyOXuoMv81rfViPDXQ8MEF4A4M9MxSIA2wtPqwWKGHWNBnu6iDDxguaJHNsw7R1MYOpA/BsYY3AGKa3UKcNN3ozyCnPUQaZ7yc41bcdai1f/EoZhvYq/yWcU7W+SdeffWS1vbicBsrDKbBfXr8EGfi43U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="165217783fd794682bb54bab826909f3a09a4a3f799b336c4f2002f9a162af76" Description="" Url=""><as:assemblyIdentity name="TestRemote.exe" version="1.0.0.1" publicKeyToken="9a5edb750e2fb565" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MAIN\ryabov-sd</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>INvsdJIzViZ0c6CLQCGi6qVArToR0iCzZH6MCEbqxG4=</DigestValue></Reference></SignedInfo><SignatureValue>SY9+pjlHAL+sB5+evtOo/UBlQ0SMlRJ0GyxTaiDqEkkT6xYNzGLIzxMKA0xecBrbQbUfSOtJlKRBhHAzgGplH95REtel7G/bw1bYDRrNAIuo4jOqoD6SrbifKUCkuInkgUckgpwvCGwbRbGc+V0EiydEQBTe3BdqzFjBzmzUxjw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>95imarSheul4H72MOZwyOXuoMv81rfViPDXQ8MEF4A4M9MxSIA2wtPqwWKGHWNBnu6iDDxguaJHNsw7R1MYOpA/BsYY3AGKa3UKcNN3ozyCnPUQaZ7yc41bcdai1f/EoZhvYq/yWcU7W+SdeffWS1vbicBsrDKbBfXr8EGfi43U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQUEYvTxhlCKlH0aStyyWbwjANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATQBBAEkATgBcAHIAeQBhAGIAbwB2AC0AcwBkMB4XDTI0MDkxOTEwMjkyNFoXDTI1MDkxOTE2MjkyNFowJzElMCMGA1UEAx4cAE0AQQBJAE4AXAByAHkAYQBiAG8AdgAtAHMAZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA95imarSheul4H72MOZwyOXuoMv81rfViPDXQ8MEF4A4M9MxSIA2wtPqwWKGHWNBnu6iDDxguaJHNsw7R1MYOpA/BsYY3AGKa3UKcNN3ozyCnPUQaZ7yc41bcdai1f/EoZhvYq/yWcU7W+SdeffWS1vbicBsrDKbBfXr8EGfi43UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQDCAkEG/Ddgw98XVRan3uLp9p59n4+jPSp8nlIIlQnN93/s15pYrq2dLtsetE4uf10AIqxyh0EiniL56HJdbxKbg0O2SgFFJ670XvOhnYk0aTNQIOyPmiDTx1zogmOpANULYysoqdlH6HCuZwdW9DnSrED056mFjNeO06ivy5Jk9g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

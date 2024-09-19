@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="TestRemote.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="TestRemote" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="TestRemote" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="TestRemote.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TestRemote.exe" size="8120">
-      <assemblyIdentity name="TestRemote" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TestRemote.exe" size="8632">
+      <assemblyIdentity name="TestRemote" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>N90aZ2kMGS8EEgi/FmpFk38DjbdfBbWwAbGihDbYbqQ=</dsig:DigestValue>
+        <dsig:DigestValue>BFW+UqteEJVOI+cbel/7nGP/ls+aeOKLzER2rzEt414=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1,0 +1,14 @@
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\bin\Debug\TestRemote.exe.config
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\bin\Debug\TestRemote.exe.manifest
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\bin\Debug\TestRemote.application
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\bin\Debug\TestRemote.exe
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\bin\Debug\TestRemote.pdb
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.csproj.AssemblyReference.cache
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.Form1.resources
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.Properties.Resources.resources
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.csproj.GenerateResource.cache
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.csproj.CoreCompileInputs.cache
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.exe.manifest
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.application
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.exe
+D:\!!loran-project\C#\TestRemote\TestRemote\TestRemote\obj\Debug\TestRemote.pdb
